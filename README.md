@@ -1,2 +1,3 @@
 # currencyForecast
-This project is aimed to create a currency forecaster
+This Project consist basically of a jupyter file. It has a content cell that displays all the steps done in the project. However, if wished to be used to forecast the value of COP (Colombian peso compared to US dollar), you may go straight to the section where the project forecast for the next seven days using different weights previosuly calculated when training the GRU model.
+For the code to compile, the libraries imported in the first cells are obviously required. Additionally, the folder of the checkpoints of the models are required if you wish to use the forecaster. In order to use it for the present date, I recommend editing the excel file up to the current date. Then the code will automatically forecast for the coming week after the last day in the file. It is important to maintain the structure of the project for the code to compile correctly.
